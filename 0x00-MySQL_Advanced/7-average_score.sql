@@ -9,6 +9,7 @@ BEGIN
   FROM corrections
   WHERE corrections.user_id = user_id;
 
-  SELECT avg_score as average_score
+  UPDATE users SET average_score = ROUND(avg_score, 0)
+  WHERE users.id = user_id;
 END //
 DELIMITER ;
