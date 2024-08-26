@@ -1,4 +1,2 @@
-// Deletes all matches of Holberton school in a collection
-db.school.remove(
-    { name: "Holberton school" }
-)
+// Deletes doc
+db.school.delete({ name: "Holberton school" })
