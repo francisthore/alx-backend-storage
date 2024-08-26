@@ -1,0 +1,2 @@
+// Creates a new or uses an existing database
+use my_db
