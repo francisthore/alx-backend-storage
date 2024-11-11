@@ -1,4 +1,4 @@
-#!/usr/bin/env python 3
+#!/usr/bin/env python3
 """
     Module that defines a function that calculate avg
     score for students and sort them
