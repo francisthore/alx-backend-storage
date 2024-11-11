@@ -15,6 +15,7 @@ class Cache:
     def __init__(self) -> None:
         """ Initializes the class instance """
         self._redis = redis.Redis()
+        self._redis.flushdb()
 
     def store(self, data: Any) -> str:
         """ Stores data into redis using random key """
